@@ -11,10 +11,24 @@
 <body>
     <header>
         <nav>
+            <div>
+                <a href="#">
+                    <img src="assets/images/sena.svg" alt="Logo de la pagina" width="50" height="50">
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre mi</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
 
 
         </nav>    
     </header>
+        <hr>
     <main>
         <!-- Contenido principal de la página -->
         <section>
@@ -60,9 +74,112 @@
             </div>
         </section>
 
+        <hr>
+        <!-- contedido multimedia -->
+        <section>
+            <h3>Contenido multimedia</h3>
+            <div>
+                <center>
+                <h4>Imagen de futbol</h4>
+                    <img src="assets/images/futbol.jpg" alt="Imagen de futbol" width="300" height="200">
+                </center>
+            </div>
+            <div>
+                <center>
+                    <h4>Video de futbol</h4>
+                    <video width="320" height="240" controls>
+                        <source src="assets/videos/video.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </center>
+            </div>    
+            <div>
+                <CENTER>
+                <h4>Audio</h4>
+                <audio controls>
+                    <source src="assets/musica/audio.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+                </CENTER>    
+            </div>
+            <div>
+                <center>
+                <h4>iframe - maps</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.187091059168!2d-74.0819059247699!3d4.609710343569024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+                .1!3m3!1m2!1s0x8e3f99c5b7b8e5a7%3A0x8e3f99c5b7b8e5a7!2sSENA%20Centro%20de%20Dise%C3%B1o%20y%20Metrolog%C3%ADa!5e0!3m2!1ses-419!2sco!4v1697041234567"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+                </center>
+            </div>
+            <div>
+                <center>
+                <h4>video de youtube</h4>
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pf8_EQLRsWI?si=qJcwysYnOCIE3o60"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen controls></iframe>
+                </center>  
+            </div>
+        </section>
+
+        <hr>
+        <!-- tablas -->
+         <section>
+            <h3>horario de clases</h3>
+            <table border="1">
+                <tr> <!-- primera fila de la tabla -->
+                    <th>Dia</th> <!-- primera columna de la tabla -->
+                    <th>competencia</th>
+                </tr>
+
+                <tr> <!-- segunda fila de la tabla -->
+                    <td>Lunes</td> <!-- segunda columna de la tabla -->
+                    <td>Etica</td>
+                </tr>
+                <tr> <!-- tercera fila de la tabla -->
+                    <td>Martes</td> <!-- tercera columna de la tabla -->
+                    <td>Ingles</td>
+                </tr>
+                <tr> <!-- cuarta fila de la tabla -->
+                    <td>Miercoles</td> <!-- cuarta columna de la tabla -->
+                    <td>Desarrollo de software</td>
+                </tr>
+                <tr> <!-- quinta fila de la tabla -->
+                    <td>Jueves</td> <!-- quinta columna de la tabla -->
+                    <td>Desarrollo de software</td>
+                </tr>
+                <tr> <!-- sexta fila de la tabla -->
+                    <td>Viernes</td> <!-- sexta columna de la tabla -->
+                    <td>Desarrollo de software</td>
+                </tr>                
+            </table>
+         </section>
+
+         <hr>
+         <!-- Formulario de contacto -->
+          <section>
+            <h3>Formulario de contacto</h3>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre"><br>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje"></textarea><br> <br>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email"><br> <br>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password"><br> <br>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha"><br> <br>
+
+                <label for="archivos">Archivos:</label>
+                <input type="file" id="archivos" multiple><br> <br>
+
+                <button type="submit">Enviar</button>
+            </form>
+          </section>
     </main>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Pf8_EQLRsWI?si=qJcwysYnOCIE3o60"
-     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-     encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>
