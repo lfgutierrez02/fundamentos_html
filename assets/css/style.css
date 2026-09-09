@@ -1,0 +1,196 @@
+/* Estilos generales */
+h3 {
+    color:yellow;
+}
+.texto-destacado {
+    color:orchid;
+}
+#menu-principal {
+    background-color: lightblue;
+
+}
+/* selectores desendientes */
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+/* seudoclases */
+nav ul li a:hover {
+    color: red;
+}
+/*blox model */
+
+div {
+    padding: 20px;
+    border: 1px solid #39a900;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    background-image: url("assets/images/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+p {
+    font-size: 20px;
+    color:black
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.menu-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.menu-principal ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-principal a:hover {
+    color: #39A900;
+}
+
+.linea-verde {
+    border:none;
+    height: 4px;
+    background-color: #29A900;
+}
+
+.seccion {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.seccion h1 {
+    color: #00304D;
+    margin-bottom: 5px;
+}
+.seccion h3 {
+    color: #39A900;
+    font-weight: normal;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F7F7F7;
+    padding: 30px;
+}
+.habilidades ul, .habilidades ol {
+    padding-left: 20px;
+}
+.habilidades li {
+    margin-bottom: 8px;
+}
+
+.multimedia-item {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.multimedia-item img, .multimedia-item video, .multimedia-item iframe {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.tabla-horario {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.tabla-horario th, .tabla-horario td {
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    text-align: center;
+}
+.tabla-horario th {
+    background-color: #00304D;
+    color: #FFFFFF;
+}
+.tabla-horario tr:nth-child(even) {
+    background-color: #F0F0F0;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    gap: 12px;
+}
+.formulario-contacto label {
+    font-weight: bold;
+    color: #00304D;
+}
+.formulario-contacto input, .formulario-contacto textarea {
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+.formulario-contacto button {
+    background-color: #39A900;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.formulario-contacto button:hover {
+    background-color: #2C8000;
+}
+
+.pie-pagina {
+    background-color: #00304D;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+.pie-pagina p {
+    margin: 4px 0;
+    font-size: 20px;
+}
